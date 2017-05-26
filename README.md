@@ -10,6 +10,10 @@ See the Oakland Pattern Portfolio: https://github.com/ObjectiveSubject/oakland-p
  - Complete implementation: there is much to be done, including handling menu/link hovers, responsive design, and header sizes. Currently, only fonts, colors, and basic type is adjusted. 
 
 
+## Preview
+
+ - [Kitchen Sink](https://mapc.github.io/oakland-semantic-ui/examples/theming.html)
+
 ![Semantic](http://semantic-ui.com/images/logo.png)
 
 # Semantic UI
