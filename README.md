@@ -1,3 +1,15 @@
+# Semantic UI Oakland Theme
+
+This is an Semantic UI implementation of Oakland's Pattern Portfolio, designed by Objective Subject. It provides a new directory under "themes", "oakland", which can be applied to other components.
+
+See the Oakland Pattern Portfolio: https://github.com/ObjectiveSubject/oakland-pattern-portfolio.
+
+## To-Do
+
+ - Clean-up: this incorrectly copied the default theme into the new "oakland" theme folder. Instead, we should just override file/folder names. 
+ - Complete implementation: there is much to be done, including handling menu/link hovers, responsive design, and header sizes. Currently, only fonts, colors, and basic type is adjusted. 
+
+
 ![Semantic](http://semantic-ui.com/images/logo.png)
 
 # Semantic UI
