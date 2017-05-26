@@ -1,0 +1,42 @@
+/*******************************
+        Global Overrides
+*******************************/
+
+@font-face {
+  font-family: "Fakt";
+  src: url('@{fontPath}/FaktPro-Normal/FaktPro-Normal.ttf');
+}
+
+
+@font-face { 
+  font-family: "Fakt"; 
+  src: url('@{fontPath}/FaktPro-NormalItalic/FaktPro-NormalItalic.ttf'); 
+  font-weight: normal; 
+  font-style: italic;
+}
+@font-face { 
+  font-family: "FaktLight"; 
+  src: url('@{fontPath}/FaktPro-Blond/FaktPro-Blond.ttf'); 
+  font-weight: normal;
+}
+@font-face { 
+  font-family: "FaktLight"; 
+  src: url('@{fontPath}/FaktPro-BlondItalic/FaktPro-BlondItalic.ttf'); 
+  font-weight: normal; 
+  font-style: italic;
+}
+@font-face { 
+  font-family: "Fakt"; 
+  src: url('@{fontPath}/FaktPro-Medium/FaktPro-Medium.ttf'); 
+  font-weight: bold;
+}
+@font-face { 
+  font-family: "Fakt"; 
+  src: url('@{fontPath}/FaktPro-MediumItalic/FaktPro-MediumItalic.ttf'); 
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face { 
+  font-family: "FaktSlab"; 
+  src: url('@{fontPath}/FaktSlabPro-Light/FaktSlabPro-Light.ttf'); 
+}

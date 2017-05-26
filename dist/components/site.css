@@ -13,7 +13,6 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
@@ -26,11 +25,11 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #FFFFFF;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  background: #EAEBE8;
+  font-family: 'Fakt', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 1.1875rem;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
   font-smoothing: antialiased;
 }
 
@@ -44,7 +43,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'FaktLight', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.28571429em;
   margin: calc(2rem -  0.14285714em ) 0em 1rem;
   font-weight: bold;
@@ -119,32 +118,32 @@ a:hover {
 /* Site */
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 
 /* Form */
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 
 
@@ -152,6 +151,42 @@ input::selection {
         Global Overrides
 *******************************/
 
+@font-face {
+  font-family: "Fakt";
+  src: url('./../themes/default/assets/fonts/FaktPro-Normal/FaktPro-Normal.ttf');
+}
+@font-face {
+  font-family: "Fakt";
+  src: url('./../themes/default/assets/fonts/FaktPro-NormalItalic/FaktPro-NormalItalic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "FaktLight";
+  src: url('./../themes/default/assets/fonts/FaktPro-Blond/FaktPro-Blond.ttf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "FaktLight";
+  src: url('./../themes/default/assets/fonts/FaktPro-BlondItalic/FaktPro-BlondItalic.ttf');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Fakt";
+  src: url('./../themes/default/assets/fonts/FaktPro-Medium/FaktPro-Medium.ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Fakt";
+  src: url('./../themes/default/assets/fonts/FaktPro-MediumItalic/FaktPro-MediumItalic.ttf');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: "FaktSlab";
+  src: url('./../themes/default/assets/fonts/FaktSlabPro-Light/FaktSlabPro-Light.ttf');
+}
 
 
 /*******************************

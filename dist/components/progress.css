@@ -22,7 +22,7 @@
   box-shadow: none;
   background: rgba(0, 0, 0, 0.1);
   padding: 0em;
-  border-radius: 0.28571429rem;
+  border-radius: 0;
 }
 .ui.progress:first-child {
   margin: 0em 0em 2.5em;
@@ -45,7 +45,7 @@
   width: 0%;
   min-width: 2em;
   background: #888888;
-  border-radius: 0.28571429rem;
+  border-radius: 0;
   -webkit-transition: width 0.1s ease, background-color 0.1s ease;
   transition: width 0.1s ease, background-color 0.1s ease;
 }
@@ -76,7 +76,7 @@
   right: auto;
   left: 0%;
   bottom: auto;
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
   font-weight: bold;
   text-shadow: none;
   margin-top: 0.2em;
@@ -118,25 +118,25 @@
 /* Indicating Label */
 .ui.indicating.progress[data-percent^="1"] .label,
 .ui.indicating.progress[data-percent^="2"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 .ui.indicating.progress[data-percent^="3"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 .ui.indicating.progress[data-percent^="4"] .label,
 .ui.indicating.progress[data-percent^="5"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 .ui.indicating.progress[data-percent^="6"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 .ui.indicating.progress[data-percent^="7"] .label,
 .ui.indicating.progress[data-percent^="8"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 .ui.indicating.progress[data-percent^="9"] .label,
 .ui.indicating.progress[data-percent^="100"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 
 /* Single Digits */
@@ -160,7 +160,7 @@
 .ui.indicating.progress[data-percent="7"] .label,
 .ui.indicating.progress[data-percent="8"] .label,
 .ui.indicating.progress[data-percent="9"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #404040;
 }
 
 /* Indicating Success */
@@ -179,7 +179,7 @@
 ---------------*/
 
 .ui.progress.success .bar {
-  background-color: #21BA45 !important;
+  background-color: #104741 !important;
 }
 .ui.progress.success .bar,
 .ui.progress.success .bar::after {
@@ -239,7 +239,7 @@
   right: 0px;
   bottom: 0px;
   background: #FFFFFF;
-  border-radius: 0.28571429rem;
+  border-radius: 0;
   -webkit-animation: progress-active 2s ease infinite;
           animation: progress-active 2s ease infinite;
 }
@@ -301,7 +301,7 @@
   color: #FFFFFF;
 }
 .ui.inverted.progress.success > .label {
-  color: #21BA45;
+  color: #104741;
 }
 .ui.inverted.progress.warning > .label {
   color: #F2C037;
@@ -328,7 +328,7 @@
   height: 0.2rem;
   padding: 0px;
   overflow: hidden;
-  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  border-radius: 0em 0em 0 0;
 }
 .ui.progress.attached .bar {
   border-radius: 0em;
@@ -338,7 +338,7 @@
 .ui.progress.top.attached,
 .ui.progress.top.attached .bar {
   top: 0px;
-  border-radius: 0.28571429rem 0.28571429rem 0em 0em;
+  border-radius: 0 0 0em 0em;
 }
 .ui.progress.top.attached .bar {
   border-radius: 0em;
@@ -374,7 +374,7 @@
 
 /* Orange */
 .ui.orange.progress .bar {
-  background-color: #F2711C;
+  background-color: #47311e;
 }
 .ui.orange.inverted.progress .bar {
   background-color: #FF851B;
@@ -382,7 +382,7 @@
 
 /* Yellow */
 .ui.yellow.progress .bar {
-  background-color: #FBBD08;
+  background-color: #f7b600;
 }
 .ui.yellow.inverted.progress .bar {
   background-color: #FFE21F;
@@ -398,7 +398,7 @@
 
 /* Green */
 .ui.green.progress .bar {
-  background-color: #21BA45;
+  background-color: #104741;
 }
 .ui.green.inverted.progress .bar {
   background-color: #2ECC40;
@@ -414,7 +414,7 @@
 
 /* Blue */
 .ui.blue.progress .bar {
-  background-color: #2185D0;
+  background-color: #0e5478;
 }
 .ui.blue.inverted.progress .bar {
   background-color: #54C8FF;
@@ -422,7 +422,7 @@
 
 /* Violet */
 .ui.violet.progress .bar {
-  background-color: #6435C9;
+  background-color: #c246bc;
 }
 .ui.violet.inverted.progress .bar {
   background-color: #A291FB;
@@ -430,7 +430,7 @@
 
 /* Purple */
 .ui.purple.progress .bar {
-  background-color: #A333C8;
+  background-color: #581666;
 }
 .ui.purple.inverted.progress .bar {
   background-color: #DC73FF;
@@ -438,7 +438,7 @@
 
 /* Pink */
 .ui.pink.progress .bar {
-  background-color: #E03997;
+  background-color: #521c2b;
 }
 .ui.pink.inverted.progress .bar {
   background-color: #FF8EDF;
